@@ -1,0 +1,314 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NDQcNDQ0HCA0HBw0HBwcHBw8IDQcNFREWFhURExUYHSggGBolGxUTITEhJSk3Li4uFx8zOD8sNygtLisBCgoKDQ0NDw0NDysZFRk3LS0rKystKzc3Ky0tNystLTctNys3KysrNzcrKysrLSsrKysrKysrKysrKysrLSsrK//AABEIALcBEwMBIgACEQEDEQH/xAAaAAEBAQEBAQEAAAAAAAAAAAABAAIDBQQH/8QAFhABAQEAAAAAAAAAAAAAAAAAAAER/8QAGQEBAQEBAQEAAAAAAAAAAAAAAQACBAMF/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwD9SSDhfSSSaxEJRrElEY3iCqTRSKaIBRLIaGE1mxNM1JlYUWmUViIBRQMRKCKKCxrFhARTSAaRVZJxJV1RT5keISTUSSTWYkUmsQMRaSBTRCwrEWQ0qUxQ0EWbA2ymgiCQiigikklhwoI4WgFhwkVnE0CgGkU2knz480kjEkpC1iSRjSURRSRRQRSQwNBUs2BoIs0NUIsLGsFRoRDRBKKBRIBkUhKBxYSKBjSIrOJrEVVq1KOOBIhRFIxqJQqIhFGEI4kghhQQRSLFgbZsRZoaooaZoaBIBRIKTSSJIohRw4KkVjTNBxY1IRWU1iSrkQXPG4iCokQTAjFCQUoQCkUAighiKCZwNAFms2Ns1HGcDWClplYUSDIsJwUFYWgDEZGsZqkOIkLCjhAxHEg+YgvOPckEwIgqAtAqAwwQwMkggJKKspAoAAgNBloAigiwlmxFEiqGpoJRNRrAsRMLNWFSHCzqRwyNChNYkq+IstKOkqIqBRqAgGGAiAkEMkhQApJnQkkyhQQzpVZaFTQBCQBTRCKIRULQ1ExRpikyKGEGQxYZCysRRDziI1Go7SoioymgYAYlCAjEgCQmdDSCZ0FBMpCpMwoJJCghEJIpEEgxIxrATEY0xpjUEaLKjQjRAxNJB5kMBertJEaAUMSAJgUQaQTIOkLWdwFaFrKKGhncTQGrRCtCARC0aoigiC0yTmAtRmNNM6WozGoWWo1GY1CzphRhZRSQeZDBGse7vRiMZZRSQSKCSQ0I6gtZBGoDcRWsrWYjqZQiKZ1CIrWdWqBpMnTButpkmMtNRiNwwNRuMRqJnW41GY1CyY1GY1EyUkk8yRqKGPd26sKICRxYBQigqAQlQtQoiQQtERtGs6tER0Cs6om9Gs6NEDerWNWmCumrWNUqjNdJTGJWooK6RqOcrcqjNdI1GJWpVGa6QxmNxAxqCNQBJJJ58MiT312NQ4kyykkEAkkAkUKKkkzotSRFrOpBDRakgNGpJndWrUlGTplSMGnW5Qgy3K3CkGo3EgG41EgG41CkkkmU/9k=") !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.bs1
+{
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+h1{
+  font-size:30px;
+  font-weight:bold;
+  color:orangered;
+}
+
+.header
+{
+  padding: 10px;
+  background-color:rgb(231, 118, 76) !important;
+
+  
+}
+.header .ant-btn
+
+{
+  box-shadow:none;
+  background-color:white;
+  color : orangered !important;
+  border:1px solid orangered !important;
+  border-radius: 5px;
+  padding: 5px 15px;
+  outline: none !important;
+}
+.content
+{
+  min-height:90vh;
+ 
+  background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NDQcNDQ0HCA0HBw0HBwcHBw8IDQcNFREWFhURExUYHSggGBolGxUTITEhJSk3Li4uFx8zOD8sNygtLisBCgoKDQ0NDw0NDysZFRk3LS0rKystKzc3Ky0tNystLTctNys3KysrNzcrKysrLSsrKysrKysrKysrKysrLSsrK//AABEIALcBEwMBIgACEQEDEQH/xAAaAAEBAQEBAQEAAAAAAAAAAAABAAIDBQQH/8QAFhABAQEAAAAAAAAAAAAAAAAAAAER/8QAGQEBAQEBAQEAAAAAAAAAAAAAAQACBAMF/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwD9SSDhfSSSaxEJRrElEY3iCqTRSKaIBRLIaGE1mxNM1JlYUWmUViIBRQMRKCKKCxrFhARTSAaRVZJxJV1RT5keISTUSSTWYkUmsQMRaSBTRCwrEWQ0qUxQ0EWbA2ymgiCQiigikklhwoI4WgFhwkVnE0CgGkU2knz480kjEkpC1iSRjSURRSRRQRSQwNBUs2BoIs0NUIsLGsFRoRDRBKKBRIBkUhKBxYSKBjSIrOJrEVVq1KOOBIhRFIxqJQqIhFGEI4kghhQQRSLFgbZsRZoaooaZoaBIBRIKTSSJIohRw4KkVjTNBxY1IRWU1iSrkQXPG4iCokQTAjFCQUoQCkUAighiKCZwNAFms2Ns1HGcDWClplYUSDIsJwUFYWgDEZGsZqkOIkLCjhAxHEg+YgvOPckEwIgqAtAqAwwQwMkggJKKspAoAAgNBloAigiwlmxFEiqGpoJRNRrAsRMLNWFSHCzqRwyNChNYkq+IstKOkqIqBRqAgGGAiAkEMkhQApJnQkkyhQQzpVZaFTQBCQBTRCKIRULQ1ExRpikyKGEGQxYZCysRRDziI1Go7SoioymgYAYlCAjEgCQmdDSCZ0FBMpCpMwoJJCghEJIpEEgxIxrATEY0xpjUEaLKjQjRAxNJB5kMBertJEaAUMSAJgUQaQTIOkLWdwFaFrKKGhncTQGrRCtCARC0aoigiC0yTmAtRmNNM6WozGoWWo1GY1CzphRhZRSQeZDBGse7vRiMZZRSQSKCSQ0I6gtZBGoDcRWsrWYjqZQiKZ1CIrWdWqBpMnTButpkmMtNRiNwwNRuMRqJnW41GY1CyY1GY1EyUkk8yRqKGPd26sKICRxYBQigqAQlQtQoiQQtERtGs6tER0Cs6om9Gs6NEDerWNWmCumrWNUqjNdJTGJWooK6RqOcrcqjNdI1GJWpVGa6QxmNxAxqCNQBJJJ58MiT312NQ4kyykkEAkkAkUKKkkzotSRFrOpBDRakgNGpJndWrUlGTplSMGnW5Qgy3K3CkGo3EgG41EgG41CkkkmU/9k=");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  
+}
+
+.carimg
+{
+  height:150px;
+  width:auto;
+  border-radius: 4px;
+ 
+
+}
+
+p{
+margin: 5px !important;
+padding: 0;
+font-size: medium;
+font-weight: bold;
+}
+
+.btn1
+{
+  box-shadow:none;
+  background-color:rgb(239, 35, 35);
+  color : white !important;
+  border:1px solid orangered;
+  border-radius: 5px;
+  
+  
+}
+.btn1:focus{
+  border:none;
+}
+
+
+.car{
+
+ 
+  
+  background-color: rgb(119, 195, 227)!important;
+  border-radius: 5px !important;
+  margin-bottom: 6px;
+  
+  margin-top: 4px;
+  
+}
+
+
+
+
+
+.login
+{
+ 
+  background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NDQcNDQ0HCA0HBw0HBwcHBw8IDQcNFREWFhURExUYHSggGBolGxUTITEhJSk3Li4uFx8zOD8sNygtLisBCgoKDQ0NDw0NDysZFRk3LS0rKystKzc3Ky0tNystLTctNys3KysrNzcrKysrLSsrKysrKysrKysrKysrLSsrK//AABEIALcBEwMBIgACEQEDEQH/xAAaAAEBAQEBAQEAAAAAAAAAAAABAAIDBQQH/8QAFhABAQEAAAAAAAAAAAAAAAAAAAER/8QAGQEBAQEBAQEAAAAAAAAAAAAAAQACBAMF/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwD9SSDhfSSSaxEJRrElEY3iCqTRSKaIBRLIaGE1mxNM1JlYUWmUViIBRQMRKCKKCxrFhARTSAaRVZJxJV1RT5keISTUSSTWYkUmsQMRaSBTRCwrEWQ0qUxQ0EWbA2ymgiCQiigikklhwoI4WgFhwkVnE0CgGkU2knz480kjEkpC1iSRjSURRSRRQRSQwNBUs2BoIs0NUIsLGsFRoRDRBKKBRIBkUhKBxYSKBjSIrOJrEVVq1KOOBIhRFIxqJQqIhFGEI4kghhQQRSLFgbZsRZoaooaZoaBIBRIKTSSJIohRw4KkVjTNBxY1IRWU1iSrkQXPG4iCokQTAjFCQUoQCkUAighiKCZwNAFms2Ns1HGcDWClplYUSDIsJwUFYWgDEZGsZqkOIkLCjhAxHEg+YgvOPckEwIgqAtAqAwwQwMkggJKKspAoAAgNBloAigiwlmxFEiqGpoJRNRrAsRMLNWFSHCzqRwyNChNYkq+IstKOkqIqBRqAgGGAiAkEMkhQApJnQkkyhQQzpVZaFTQBCQBTRCKIRULQ1ExRpikyKGEGQxYZCysRRDziI1Go7SoioymgYAYlCAjEgCQmdDSCZ0FBMpCpMwoJJCghEJIpEEgxIxrATEY0xpjUEaLKjQjRAxNJB5kMBertJEaAUMSAJgUQaQTIOkLWdwFaFrKKGhncTQGrRCtCARC0aoigiC0yTmAtRmNNM6WozGoWWo1GY1CzphRhZRSQeZDBGse7vRiMZZRSQSKCSQ0I6gtZBGoDcRWsrWYjqZQiKZ1CIrWdWqBpMnTButpkmMtNRiNwwNRuMRqJnW41GY1CyY1GY1EyUkk8yRqKGPd26sKICRxYBQigqAQlQtQoiQQtERtGs6tER0Cs6om9Gs6NEDerWNWmCumrWNUqjNdJTGJWooK6RqOcrcqjNdI1GJWpVGa6QxmNxAxqCNQBJJJ58MiT312NQ4kyykkEAkkAkUKKkkzotSRFrOpBDRakgNGpJndWrUlGTplSMGnW5Qgy3K3CkGo3EgG41EgG41CkkkmU/9k=");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  padding-top: 100px;
+  padding-right: 50px;
+  padding-bottom: 100px;
+  min-height:100vh;
+ 
+}
+
+.login label,.login h1{
+color: black!important;
+
+}
+
+
+.login-form
+{
+background-color: rgb(255, 240, 240) !important;
+padding-top: 50px !important;
+border-radius: 5px;
+
+
+
+
+}
+
+.login-form input{
+  background-color: black !important;
+  opacity: 0.5;
+  border:none !important;
+  color:white;
+  
+  
+}
+
+.login a{
+  color:black !important;
+  
+}
+
+.carimg2
+{
+  height:300px;
+  border-radius:10px;
+  width:auto;
+}
+
+.admin
+{
+  background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NDQcNDQ0HCA0HBw0HBwcHBw8IDQcNFREWFhURExUYHSggGBolGxUTITEhJSk3Li4uFx8zOD8sNygtLisBCgoKDQ0NDw0NDysZFRk3LS0rKystKzc3Ky0tNystLTctNys3KysrNzcrKysrLSsrKysrKysrKysrKysrLSsrK//AABEIALcBEwMBIgACEQEDEQH/xAAaAAEBAQEBAQEAAAAAAAAAAAABAAIDBQQH/8QAFhABAQEAAAAAAAAAAAAAAAAAAAER/8QAGQEBAQEBAQEAAAAAAAAAAAAAAQACBAMF/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwD9SSDhfSSSaxEJRrElEY3iCqTRSKaIBRLIaGE1mxNM1JlYUWmUViIBRQMRKCKKCxrFhARTSAaRVZJxJV1RT5keISTUSSTWYkUmsQMRaSBTRCwrEWQ0qUxQ0EWbA2ymgiCQiigikklhwoI4WgFhwkVnE0CgGkU2knz480kjEkpC1iSRjSURRSRRQRSQwNBUs2BoIs0NUIsLGsFRoRDRBKKBRIBkUhKBxYSKBjSIrOJrEVVq1KOOBIhRFIxqJQqIhFGEI4kghhQQRSLFgbZsRZoaooaZoaBIBRIKTSSJIohRw4KkVjTNBxY1IRWU1iSrkQXPG4iCokQTAjFCQUoQCkUAighiKCZwNAFms2Ns1HGcDWClplYUSDIsJwUFYWgDEZGsZqkOIkLCjhAxHEg+YgvOPckEwIgqAtAqAwwQwMkggJKKspAoAAgNBloAigiwlmxFEiqGpoJRNRrAsRMLNWFSHCzqRwyNChNYkq+IstKOkqIqBRqAgGGAiAkEMkhQApJnQkkyhQQzpVZaFTQBCQBTRCKIRULQ1ExRpikyKGEGQxYZCysRRDziI1Go7SoioymgYAYlCAjEgCQmdDSCZ0FBMpCpMwoJJCghEJIpEEgxIxrATEY0xpjUEaLKjQjRAxNJB5kMBertJEaAUMSAJgUQaQTIOkLWdwFaFrKKGhncTQGrRCtCARC0aoigiC0yTmAtRmNNM6WozGoWWo1GY1CzphRhZRSQeZDBGse7vRiMZZRSQSKCSQ0I6gtZBGoDcRWsrWYjqZQiKZ1CIrWdWqBpMnTButpkmMtNRiNwwNRuMRqJnW41GY1CyY1GY1EyUkk8yRqKGPd26sKICRxYBQigqAQlQtQoiQQtERtGs6tER0Cs6om9Gs6NEDerWNWmCumrWNUqjNdJTGJWooK6RqOcrcqjNdI1GJWpVGa6QxmNxAxqCNQBJJJ58MiT312NQ4kyykkEAkkAkUKKkkzotSRFrOpBDRakgNGpJndWrUlGTplSMGnW5Qgy3K3CkGo3EgG41EgG41CkkkmU/9k=");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;;
+}
+
+svg{
+  height :20px !important;
+  width: 20px;
+}
+
+.nav-item
+{
+  font-weight: bold;
+  font-size: 15px;
+}
+
+h3{
+  color: orangered;
+}
+
+
+.carsingle_description h2 {
+  margin: 20px 0 5px 0;
+}
+
+.carsingle_price_details {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr auto;
+  margin-top: 20px;
+}
+
+.carsingle_price_details ul li span {
+  color: var(--text-color);
+}
+
+.carsingle_price_details ul li {
+  font-size: 12px;
+  font-weight: bold;
+  color: var(--text-color-secondary);
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.carsingle_price {
+  font-size: 38px;
+  font-weight: normal;
+  display: flex;
+  align-items: flex-start;
+}
+
+.carsingle_price span {
+  color: var(--text-color-secondary);
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.carsingle_about {
+  margin-top: 30px;
+}
+
+.carsingle_about h3 {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--text-color-secondary);
+}
+
+.carsingle_about hr {
+  margin-bottom: 10px;
+}
+
+.carsingle_about p {
+  line-height: 1.5em;
+}
+
+@media (min-width: 768px) {
+  .carsingle_grid {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .carsingle_description h2 {
+    margin: 0 0 5px 0;
+  }
+
+  .add-car
+  {
+    background-color:white !important;
+    border-radius: 5px;
+    border-color: black;
+    
+
+
+  }
+  .addcar label,.addcar h4{
+    color: rgb(17, 17, 77)!important;
+    
+    
+    }
+    .add_car placeholder
+    {
+      color:black;
+    }
+    .btn3
+    {
+      text-align: right;
+    }
+    .carsingle_image img
+    {
+      border-radius: 5px;
+      border-color: black;
+      
+    }
+    .navbar-brand
+    {
+      color:burlywood;
+      font-family:cursive;
+    }
+
+    .navbar-brand
+    {
+      color:burlywood;
+    }
+    div.btn4 {
+ text-align: left;
+    }
+    .add-car h3,h4{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:orangered;
+    }
+    .login-form h1{
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .add-car input {
+      background-color:pink!important;
+      border:none !important;
+      color:black;
+      
+    };
+
+    .reservation
+{
+  background-color: white;
+}
+    
+  
+}
